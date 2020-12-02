@@ -42,7 +42,6 @@ class MapContainer extends Component {
         initialCenter={{ lat: 47.444, lng: -122.176}}
       >
         {this.displayMarkers()}
-      {/* <Marker position={{ lat: 47.444, lng: -122.176}} /> */}
       </Map>
     )
   }
